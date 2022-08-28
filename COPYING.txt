@@ -1,0 +1,32 @@
+KanjiFocus uses third party libraries and other projects to achieve its functionality.
+A list of all libraries and projects used along with their respective license and notice files can be found below:
+
+
+The following libraries are shaded into the KanjiFocus jar:
+
+Apache Commons IO: license in third-party-licenses/ApacheCommons_LICENSE.txt, notice in third-party-licenses/ApacheCommonsIO_NOTICE.txt
+Apache Commons Logging: license in third-party-licenses/ApacheCommons_LICENSE.txt, notice in third-party-licenses/ApacheCommonsLogging_NOTICE.txt
+Apache Batik: license in third-party-licenses/Batik_LICENSE, notice in third-party-licenses/Batik_NOTICE
+Jackson (core, annotations, databind): license in third-party-licenses/Jackson_LICENSE, notice in third-party-licenses/Jackson_NOTICE
+Kuromoji (core, unidic): license in third-party-licenses/Kuromoji_LICENSE.md, notice in third-party-licenses/Kuromoji_NOTICE.md
+SQLite JDBC: licenses in third-party-licenses/SQLiteJDBC_LICENSE and third-party-licenses/SQLiteJDBC_LICENSE.zentus, notice in third-party-licenses/SQLiteJDBC_NOTICE
+Apache Xalan: license in third-party-licenses/Xalan_LICENSE.txt, notice in third-party-licenses/Xalan_NOTICE.txt
+Apache XML Graphics Commons: license in third-party-licenses/XMLGraphicsCommons_LICENSE, notice in third-party-licenses/XMLGraphicsCommons_NOTICE
+Apache XML Commons XML APIs: licenses in third-party-licenses/XMLAPIs_LICENSE, third-party-licenses/XMLAPIs_LICENSE.dom-documentation.txt, third-party-licenses/XMLAPIs_LICENSE.dom-software.txt, and third-party-licenses/XMLAPIs_LICENSE.sax.txt, notice in third-party-licenses/XMLAPIs_NOTICE
+
+
+The following dictionaries and other projects are used to populate res/data.db:
+
+JMdict (Copyright © 2022 Electronic Dictionary Research and Development Group - https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project): license in EDRDG_LICENSE.txt
+KANJIDIC (Copyright © 2015 EDRDG - https://www.edrdg.org/wiki/index.php/KANJIDIC_Project): license in EDRDG_LICENSE.txt
+KRADFILE (Copyright © 2009 EDRDG, Jim Rose - https://www.edrdg.org/krad/kradinf.html): license in EDRDG_LICENSE.txt
+
+The material used to populate res/data.db was modified in the sense that the information contained was filtered, combined using cross-references, and brought into a format that fits the KanjiFocus data database.
+The informational content after this modification generally remains unchanged, though formatting and organization of the information have changed, and some information may have been discarded.
+
+
+The following resource is used for res/kanjivg.zip:
+
+KanjiVG (Copyright © 2009-2022 Ulrich Apel - https://kanjivg.tagaini.net): license in hird-party-licenses/KanjiVG_COPYING
+
+The SVG files contained within the zip file are unmodified.

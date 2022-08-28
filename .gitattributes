@@ -1,0 +1,13 @@
+*.gitattributes text eol=lf
+*.gitignore text eol=lf
+
+*.md text eol=lf diff=markdown
+*.xml text eol=lf
+*.java text eol=lf diff=java
+*.form text eol=lf linguist-language=XML
+
+*.png binary
+*.zip binary
+*.db binary
+
+third-party-licenses/* text eol=lf
